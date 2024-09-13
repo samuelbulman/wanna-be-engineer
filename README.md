@@ -6,7 +6,7 @@ The python modules in this codebase were developed to aid in the automation and 
 
 ### Specific Tooling / Use Cases:
 - AWS Secrets Manager
-    - This codebase will need to run in an environment that has access to AWS Secrets Manager. This was the tool of choice to keep things secure when handle sensitive information like Service Account Keys and Database credentials.
+    - This codebase will need to run in an environment that has access to AWS Secrets Manager. This was the tool of choice to keep things secure when passing sensitive information like Service Account Keys and Database credentials into scripts.
 
 - AWS Redshift
     - Query/load data in an AWS Redshift datawarehouse.
